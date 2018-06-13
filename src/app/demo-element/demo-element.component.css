@@ -1,0 +1,44 @@
+:host {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.title, .tweet-list {
+  box-sizing: border-box;
+}
+
+.title {
+  color: #ffffff;
+  background-color: #222244;
+  font-size: 1.7rem;
+  padding: 15px;
+}
+
+.tweet-list, .tweet-list-element {
+  list-style: inside;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.tweet-list-element:nth-child(2n){
+  background-color: #f7f7fc;
+}
+
+.tweet-list-element a {
+  padding: 10px 5px;
+  display: block;
+  text-decoration: none;
+  color: #2222bb;
+  font-size: 0.9rem;
+}
+
+.tweet-list-element a:hover {
+  background-color: #99aaff;
+  color: #ffffff;
+}
+
+.tweet-list-element small {
+  display: block;
+  margin-top: 10px;
+  color: #444444;
+}
